@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# Media and Processed Uploads
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+backend/data/processed/*
+!backend/data/processed/.gitkeep
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+*.local
+
+# Logs and Environment
+*.log
+.env
+.env.*
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
